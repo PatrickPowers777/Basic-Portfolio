@@ -1,20 +1,26 @@
 h1 {
 	font-family:Arial;
 	font-size:32px;
+	font-color: #00AEA3;
 	background-color: #00AEA3;
 	padding: 30px;
+	padding-left:50px;
 	color:white;
 	display: inline-block;
 	float: left;
+
 }
 
 h2 {
 	font-family: Arial;
 	font-size: 28px;
+	color: #00AEA3;
 }
 nav a  {
 	float: right;
 	padding: 30px;
+	display: inline;
+	margin-right: 0px;
 }
 
 footer{
@@ -26,10 +32,35 @@ footer{
 	font-size: 12px;
 	color:white;
 }
+
+.height {
+	line-height: 1.4em;
+}
+#headertag {
+	padding-left: 175px;
+}
+
+#biopic{
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-right: 12px;
+}
+
+
 #main {
 	width:650px;
 	float:left;
+	padding-left: 175px;
+	border: 10px;
+	border-color: 1px solid black;
 
+}
+
+#bio {
+	border: 8px;
+	border-width: 8px;
+	border-color: red;
 }
 
 #clearfix{
@@ -44,4 +75,7 @@ footer{
 #sidebar {
 	width: 270px;
 	float:right;
+	padding-right: 40px ;
+	color:#00AEA3;
+	text-align: center;
 }
