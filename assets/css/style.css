@@ -1,10 +1,9 @@
 h1 {
-	font-family:Arial;
+	font-family:sans-serif;
 	font-size:32px;
 	font-color: #00AEA3;
 	background-color: #00AEA3;
-	padding: 30px;
-	padding-left:50px;
+	padding: 30px;;
 	color:white;
 	display: inline-block;
 	float: left;
@@ -12,15 +11,26 @@ h1 {
 }
 
 h2 {
-	font-family: Arial;
-	font-size: 28px;
+	font-family: sans-serif;
+	font-size: 42px;
 	color: #00AEA3;
 }
-nav a  {
-	float: right;
-	padding: 30px;
+
+nav a {
 	display: inline;
-	margin-right: 0px;
+	float: right;
+	margin: 24px 140px -10px 24px;
+
+}
+
+	a:link {
+		text-decoration-line:none;
+		font-color: #CDBAAF;
+	}
+
+	a:hover {
+		color:red;
+
 }
 
 footer{
@@ -33,11 +43,20 @@ footer{
 	color:white;
 }
 
+hr {
+	border-style: outset;
+	border-color: #DCDCDC;
+	border-width: 2px;
+	margin: auto;
+	overflow: auto;
+    padding: auto;
+}
+
 .height {
 	line-height: 1.4em;
 }
 #headertag {
-	padding-left: 175px;
+	padding-left: 140px;
 }
 
 #biopic{
@@ -51,17 +70,20 @@ footer{
 #main {
 	width:650px;
 	float:left;
-	padding-left: 175px;
-	border: 10px;
-	border-color: 1px solid black;
+	padding-left: 40px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #DCDCDC;
+	background-color: #FFFFFF;
+	margin-left: 140px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	margin-right: 20px;
 
 }
 
-#bio {
-	border: 8px;
-	border-width: 8px;
-	border-color: red;
-}
 
 #clearfix{
 	clear:both;
@@ -70,12 +92,23 @@ footer{
 #entire {
 	clear:both;
 	background-image: url('../images/cork-wallet.png');
+	border-bottom-width: 8px;
+	border-bottom-style: solid;
+	border-bottom-color: #00AEA3;
 }
 
 #sidebar {
 	width: 270px;
 	float:right;
-	padding-right: 40px ;
 	color:#00AEA3;
 	text-align: center;
+	font-size: 26px;
+	font-family: sans-serif;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #DCDCDC;
+	background-color: #FFFFFF;
+	margin-top: 40px;
+	margin-right: 138px;
+	padding-bottom: 30px;
 }
