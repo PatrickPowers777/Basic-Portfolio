@@ -3,7 +3,7 @@ h1 {
 	font-size:32px;
 	font-color: #00AEA3;
 	background-color: #00AEA3;
-	padding: 30px;;
+	padding: 30px;
 	color:white;
 	display: inline-block;
 	float: left;
@@ -19,13 +19,14 @@ h2 {
 nav a {
 	display: inline;
 	float: right;
-	margin: 24px 140px -10px 24px;
+	padding-right: 10px;
+	margin: 24px 60px 10px 24px;
 
 }
 
 	a:link {
 		text-decoration-line:none;
-		font-color: #CDBAAF;
+		color: #CDBAAF;
 	}
 
 	a:hover {
