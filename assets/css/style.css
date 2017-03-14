@@ -113,3 +113,19 @@ hr {
 	margin-right: 138px;
 	padding-bottom: 30px;
 }
+
+@media screen and (max-width: 980px) {
+
+
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 640px){
+	header{
+		position: static;
+	}
+
+}

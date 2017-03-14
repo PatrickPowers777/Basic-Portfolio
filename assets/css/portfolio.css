@@ -130,3 +130,19 @@ footer{
 	font-weight: 300;
 
 }
+
+@media screen and (max-width: 980px) {
+
+
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 640px){
+	header{
+		position: static;
+	}
+
+}
